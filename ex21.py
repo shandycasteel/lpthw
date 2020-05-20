@@ -14,7 +14,6 @@ def divide(a, b):
     print(f"DIVIDING {a} / {b}")
     return a / b
 
-
 print("Let's do some math with just function!")
 
 age = add(30, 5)

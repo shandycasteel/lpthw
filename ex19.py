@@ -64,6 +64,6 @@ for book in range(6):
     counts_books(100 * i, 10 * i)
     i += 1
 
-books = int(input("How about you tell us how many books: "))
-authors = int(input("...and now how many authors: "))
+books = int(float(input("How about you tell us how many books: ")))
+authors = int(float(input("...and now how many authors: ")))
 counts_books(books, authors)
